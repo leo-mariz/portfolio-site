@@ -1,0 +1,12 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: right;
+    justify-content: space-between;
+    padding: 10rem;
+    height: 40rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    border-top: 0.05rem solid white;
+}

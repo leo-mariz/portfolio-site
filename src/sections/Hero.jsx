@@ -1,9 +1,8 @@
-// import styles from './static/Hero.module.css';
+import styles from './static/Hero.module.css';
 
 function Hero() {
   return (
-    <section className=''>
-      <img></img>
+    <section className={styles.hero}>
       <p>
         Olá, me chamo <strong>Leonardo Mariz</strong>!
       </p>

@@ -14,7 +14,10 @@
 html {
   font-size: 62.5%;
   color: white;
-  background-color: rgb(39, 39, 39);
+  /* background-color: rgba(12, 23, 119, 0.938); */
+  /* background-image: repeating-radial-gradient(rgba(12, 23, 119, 0.938), rgba(15, 25, 119, 0.938) 0.5%); */
+  /* background-image: repeating-radial-gradient(rgba(12, 23, 119, 0.938), rgba(13, 23, 114, 0.938) 12%); */
+  background-image: repeating-radial-gradient(rgba(12, 23, 119, 0.938), rgba(12, 23, 116, 0.935) 12%);
   & > body {
       font-family: 'Roboto', sans-serif;
       font-size: 1.6rem;

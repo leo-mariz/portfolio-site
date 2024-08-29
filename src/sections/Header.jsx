@@ -1,9 +1,12 @@
 import styles from './static/Header.module.css';
+import icons from "../assets/icons/icons.jsx";
 
 function Header() {
+  const icon = icons["Header"]
   return (
     <header className={styles.header}>
-      <h2>Leonardo Mariz</h2>
+      <h2>LEONARDO MARIZ</h2>
+      <img src={icon}></img>
       <nav>
         <ul>
           <li><a href="#sobremim">Sobre Mim</a></li> 

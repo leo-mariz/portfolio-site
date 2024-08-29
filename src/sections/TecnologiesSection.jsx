@@ -21,7 +21,7 @@ function SkillsSection() {
         name: "CSS",
         },
         {
-        // icon: icons["Flutter"],
+        icon: icons["Flutter"],
         name: "Flutter",
         },
         {
@@ -33,11 +33,11 @@ function SkillsSection() {
         name: "Django",
         },
         {
-        // icon: icons["Flask"],
+        icon: icons["Flask"],
         name: "Flask",
         },
         {
-        // icon: icons["Streamlit"],
+        icon: icons["Streamlit"],
         name: "Streamlit",
         },
         {
@@ -51,6 +51,10 @@ function SkillsSection() {
         {
         icon: icons["MySQL"],
         name: "MySQL",
+        },
+        {
+        icon: icons["Docker"],
+        name: "Docker",
         },
     ];
     
