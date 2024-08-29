@@ -1,0 +1,39 @@
+#root {
+  max-width: auto;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  color: white;
+  background-color: rgb(39, 39, 39);
+  & > body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.6rem;
+      margin: 0;
+      padding: 0;
+  }
+
+  & section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8rem;
+    height: auto;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    border-top: 0.05rem solid white;
+  }
+}
+
+
